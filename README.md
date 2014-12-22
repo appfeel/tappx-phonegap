@@ -13,7 +13,7 @@ Add the following tag to your `config.xml` file to show [Tappx](http://www.tappx
 To use the plugin with [**Cordova** or with **Phonegap CLI**](http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html#The%20Command-line%20Interface) type the following command in your command line:
 
 ```shell
-cordova plugin add com.admob.google
+cordova plugin add com.ads.tappx
 ```
 
 ## Configuration
