@@ -1,7 +1,7 @@
 Tappx-Admob Phonegap and Cordova plugin
 ===============================
 
-This is the official Tappx plugin for Phonegap & Cordova.
+This is the official [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) plugin for Phonegap & Cordova.
 
 ## Install
 To use the plugin with **Phonegap Build** add the following tag to your config.xml file:
