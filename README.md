@@ -1,10 +1,10 @@
 Tappx-Admob Phonegap and Cordova plugin
 ===============================
 
-This is the official [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) plugin for Phonegap & Cordova.
+This is the official [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) plugin for Phonegap & Cordova. Start monetizing your Phonegap or Cordova apps with this plugin. Read the [full Javascript API documentation here](https://github.com/appfeel/admob-google-cordova#javascript-api)
 
 ## Install
-To use the plugin with **Phonegap Build** add the following tag to your config.xml file:
+Add the following tag to your `config.xml` file to show [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) ads with your **Phonegap Build** apps:
 
 ```xml
 <gap:plugin name="com.admob.google" source="plugins.cordova.io" />
