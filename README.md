@@ -1,7 +1,7 @@
 Tappx Phonegap and Cordova plugin
 =================================
 
-This is the [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) plugin for Phonegap & Cordova. Start monetizing your Phonegap or Cordova apps with this plugin. Read the [full Javascript API documentation here](https://github.com/appfeel/admob-google-cordova#javascript-api)
+This is the [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) plugin for Phonegap & Cordova. Start monetizing your Phonegap or Cordova apps with this plugin. Read the [full Javascript API documentation here](https://github.com/appfeel/admob-google-cordova#javascript-api).
 
 ## Install
 Add the following tag to your `config.xml` file to show [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) ads with your **Phonegap Build** apps:
@@ -20,7 +20,7 @@ cordova plugin add com.ads.tappx
 
 *Note: Before continuing, ensure that you have a proper [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) account, and optionally, an [Admob](https://apps.admob.com/admob/signup) account.*
 
-Place the following code in your `deviceready` event:
+Place the following code in your `deviceready` event **replacing the id's with your own one's**:
 ```javascript
     function onDeviceReady() {
       document.removeEventListener('deviceready', onDeviceReady, false);
