@@ -26,7 +26,7 @@ Place the following code in your `deviceready` event **replacing the id's with y
       document.removeEventListener('deviceready', onDeviceReady, false);
 
       // Set AdMobAds options:
-      admob.setOptions({
+      tappx.setOptions({
         publisherId:          "NONE",                                    // Replace with your AdMob id (if you don't have any, set it to "NONE")
         tappxIdiOs:           "/120940746/Pub-2702-iOS-8226",            // Replace with your Tappx Id for iOS
         tappxIdAndroid:       "/120940746/Pub-2700-Android-8171",        // Replace with your Tappx Id for Android
@@ -34,10 +34,10 @@ Place the following code in your `deviceready` event **replacing the id's with y
       });
 
       // Start showing banners (atomatic when autoShowBanner is set to true)
-      admob.createBannerView();
+      tappx.createBannerView();
 
       // Request interstitial (will present automatically when autoShowInterstitial is set to true)
-      admob.requestInterstitial();
+      tappx.requestInterstitial();
     }
 
     document.addEventListener("deviceready", onDeviceReady, false);
@@ -49,7 +49,7 @@ In example, if you would like to share 80% traffic source to Tappx and the rest 
 
 ```javascript
       // Set AdMobAds options:
-      admob.setOptions({
+      tappx.setOptions({
         publisherId:          "ca-app-pub-8440343014846849/3119840614",  // Replace with your AdMob id
         tappxIdiOs:           "/120940746/Pub-2702-iOS-8226",            // Replace with your Tappx Id for iOS
         tappxIdAndroid:       "/120940746/Pub-2700-Android-8171",        // Replace with your Tappx Id for Android
