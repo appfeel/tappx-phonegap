@@ -1,7 +1,7 @@
-Tappx-Admob Phonegap and Cordova plugin
+Tappx Phonegap and Cordova plugin
 ===============================
 
-This is the official [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) plugin for Phonegap & Cordova. Start monetizing your Phonegap or Cordova apps with this plugin.
+This is the [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) plugin for Phonegap & Cordova. Start monetizing your Phonegap or Cordova apps with this plugin.
 
 ---
 ## Platform SDK supported ##
