@@ -69,7 +69,7 @@ In example, if you would like to share 80% traffic source to Tappx and the rest 
 ---
 ## Full documentation ##
 
-Visit the [wiki](https://github.com/appfeel/tappx-phonegap/wiki) pages to know in detail about Google AdMob Cordova plugin, where you will find the following topics:
+Visit the [wiki](https://github.com/appfeel/tappx-phonegap/wiki) pages to know in detail about Tappx Cordova plugin, where you will find the following topics:
 
 * [Home](https://github.com/appfeel/tappx-phonegap/wiki)
 * [Index](https://github.com/appfeel/tappx-phonegap/wiki/Index)
