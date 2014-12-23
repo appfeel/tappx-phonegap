@@ -1,11 +1,7 @@
-Tappx Phonegap and Cordova plugin
-=================================
+Tappx-Admob Phonegap and Cordova plugin
+===============================
 
-<<<<<<< HEAD
 This is the official [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) plugin for Phonegap & Cordova. Start monetizing your Phonegap or Cordova apps with this plugin.
-=======
-This is the [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) plugin for Phonegap & Cordova. Start monetizing your Phonegap or Cordova apps with this plugin. Read the [full Javascript API documentation here](https://github.com/appfeel/admob-google-cordova#javascript-api).
->>>>>>> 4391800b8a1719e00136e44540f806accb43111d
 
 ---
 ## Platform SDK supported ##
@@ -15,18 +11,14 @@ This is the [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) pl
 
 ---
 ## Install
-<<<<<<< HEAD
 
 Add the following tag to your `config.xml` file to show [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) ads with your **Phonegap Build** apps:
-=======
-To use the plugin with **Phonegap Build (PB)** Add the following tag to your `config.xml`:
->>>>>>> 4391800b8a1719e00136e44540f806accb43111d
 
 ```xml
 <gap:plugin name="com.ads.tappx" source="plugins.cordova.io" />
 ```
 
-To use the plugin with [**Cordova** or with **Phonegap CLI**](http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html#The%20Command-line%20Interface) type the following command in command line window:
+To use the plugin with [**Cordova** or with **Phonegap CLI**](http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html#The%20Command-line%20Interface) type the following command in your command line:
 
 ```shell
 cordova plugin add com.ads.tappx
@@ -37,13 +29,13 @@ cordova plugin add com.ads.tappx
 
 *Note: Before continuing, ensure that you have a proper [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) account, and optionally, an [Admob](https://apps.admob.com/admob/signup) account.*
 
-Place the following code in your `deviceready` event **replacing the id's with your own one's**:
+Place the following code in your `deviceready` event:
 ```javascript
     function onDeviceReady() {
       document.removeEventListener('deviceready', onDeviceReady, false);
 
       // Set AdMobAds options:
-      tappx.setOptions({
+      admob.setOptions({
         publisherId:          "NONE",                                    // Replace with your AdMob id (if you don't have any, set it to "NONE")
         tappxIdiOs:           "/120940746/Pub-2702-iOS-8226",            // Replace with your Tappx Id for iOS
         tappxIdAndroid:       "/120940746/Pub-2700-Android-8171",        // Replace with your Tappx Id for Android
@@ -51,10 +43,10 @@ Place the following code in your `deviceready` event **replacing the id's with y
       });
 
       // Start showing banners (atomatic when autoShowBanner is set to true)
-      tappx.createBannerView();
+      admob.createBannerView();
 
       // Request interstitial (will present automatically when autoShowInterstitial is set to true)
-      tappx.requestInterstitial();
+      admob.requestInterstitial();
     }
 
     document.addEventListener("deviceready", onDeviceReady, false);
@@ -66,7 +58,7 @@ In example, if you would like to share 80% traffic source to Tappx and the rest 
 
 ```javascript
       // Set AdMobAds options:
-      tappx.setOptions({
+      admob.setOptions({
         publisherId:          "ca-app-pub-8440343014846849/3119840614",  // Replace with your AdMob id
         tappxIdiOs:           "/120940746/Pub-2702-iOS-8226",            // Replace with your Tappx Id for iOS
         tappxIdAndroid:       "/120940746/Pub-2700-Android-8171",        // Replace with your Tappx Id for Android
