@@ -80,7 +80,7 @@ Visit the [wiki](https://github.com/appfeel/tappx-phonegap/wiki) pages to know i
   * [setOptions](https://github.com/appfeel/tappx-phonegap/wiki/setOptions)
   * Banners
     * [createBannerView](https://github.com/appfeel/tappx-phonegap/wiki/createBannerView)
-    * [showAd](https://github.com/appfeel/tappx-phonegap/wiki/showAd)
+    * [showBannerAd](https://github.com/appfeel/tappx-phonegap/wiki/showBannerAd)
     * [destroyBannerView](https://github.com/appfeel/tappx-phonegap/wiki/destroyBannerView)
   * Interstitials
     * [requestInterstitialAd](https://github.com/appfeel/tappx-phonegap/wiki/requestInterstitialAd)
