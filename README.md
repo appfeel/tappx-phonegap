@@ -42,10 +42,10 @@ Place the following code in your `deviceready` event:
         tappxShare:           1                                          // Do not use lower tappxShare ratio if you have set publixherId to "NONE"
       });
 
-      // Start showing banners (atomatic when autoShowBanner is set to true)
+      // Start showing banners (will show atomatically as autoShowBanner is set to true by default)
       admob.createBannerView();
 
-      // Request interstitial (will present automatically when autoShowInterstitial is set to true)
+      // Request interstitial (will present automatically as autoShowInterstitial is set to true by default)
       admob.requestInterstitial();
     }
 
