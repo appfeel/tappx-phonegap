@@ -6,8 +6,8 @@ This is the [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) pl
 ---
 ## Platform SDK supported ##
 
-* iOS, using AdMob SDK for iOS, v6.12.2
-* Android, using Google Play Service for Android, v6.1
+* iOS, using AdMob SDK for iOS, v7.0.0
+* Android, using Google Play Service for Android, v6.5
 
 ---
 ## Install
