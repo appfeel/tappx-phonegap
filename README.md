@@ -6,8 +6,8 @@ This is the [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) pl
 ---
 ## Platform SDK supported ##
 
-* iOS, using AdMob SDK for iOS, v7.0.0
-* Android, using Google Play Service for Android, v6.5
+* iOS, using AdMob SDK for iOS, v7.3.1
+* Android, using Google Play Service for Android, v7.5
 
 ---
 ## Install
@@ -15,8 +15,10 @@ This is the [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) pl
 Add the following tag to your `config.xml` file to show [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) ads with your **Phonegap Build** apps:
 
 ```xml
-<gap:plugin name="com.ads.tappx" source="plugins.cordova.io" />
+<gap:plugin name="com.ads.tappx" source="plugins.cordova.io" version="2.0.14"/>
 ```
+ Please note to use version 2.0.14 as Phonegap Build is still not supporting cordova android@4.0.0.
+
 
 To use the plugin with [**Cordova** or with **Phonegap CLI**](http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html#The%20Command-line%20Interface) type the following command in your command line:
 
