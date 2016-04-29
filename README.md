@@ -38,7 +38,7 @@ Place the following code in your `deviceready` event:
       // Set AdMobAds options:
       admob.setOptions({
         publisherId:          "NONE",                                    // Replace with your AdMob id (if you don't have any, set it to "NONE")
-        tappxIdiOs:           "/XXXXXXXXX/Pub-XXXX-iOS-IIII",            // Replace with your Tappx Id for iOS
+        tappxIdiOS:           "/XXXXXXXXX/Pub-XXXX-iOS-IIII",            // Replace with your Tappx Id for iOS
         tappxIdAndroid:       "/XXXXXXXXX/Pub-XXXX-Android-AAAA",        // Replace with your Tappx Id for Android
         tappxShare:           1                                          // Do not use lower tappxShare ratio if you have set publixherId to "NONE"
       });
@@ -61,7 +61,7 @@ In example, if you would like to share 80% traffic source to Tappx and the rest 
       // Set AdMobAds options:
       admob.setOptions({
         publisherId:          "ca-app-pub-XXXXXXXXXXXXXXXX/BBBBBBBBBB",  // Replace with your AdMob id
-        tappxIdiOs:           "/XXXXXXXXX/Pub-XXXX-iOS-IIII",            // Replace with your Tappx Id for iOS
+        tappxIdiOS:           "/XXXXXXXXX/Pub-XXXX-iOS-IIII",            // Replace with your Tappx Id for iOS
         tappxIdAndroid:       "/XXXXXXXXX/Pub-XXXX-Android-AAAA",        // Replace with your Tappx Id for Android
         tappxShare:           0.8                                        // Do not use lower tappxShare ratio if you have set publixherId to "NONE"
       });
