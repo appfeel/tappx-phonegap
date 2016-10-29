@@ -6,8 +6,8 @@ This is the [Tappx](http://www.tappx.com/?h=dec334d63287772de859bdb4e977fce6) pl
 ---
 ## Platform SDK supported ##
 
-* iOS, using AdMob SDK for iOS, v7.3.1
-* Android, using Google Play Service for Android, v7.5
+* iOS, using AdMob SDK for iOS, v7.13.1
+* Android, using latest Google Play Service for Android (managed by gradle)
 
 ---
 ## Install
@@ -23,6 +23,29 @@ To use the plugin with [**Cordova** or with **Phonegap CLI**](http://cordova.apa
 
 ```shell
 cordova plugin add tappx-phonegap
+```
+
+---
+## Plugin update (phonega/cordova cli) ##
+
+`cordova-admob~4.1.15` and later are now updated to Firebase (ios 7.13.1 and later and managed by gradle in android)
+
+To update the plugin you should remove the plugin ad add it again:
+
+```
+$ cordova plugin rm cordova-admob
+$ npm cache clear
+$ cordova plugin add cordova-admob
+```
+
+Sometimes removing the plugin causes an error (it's been reported to cordova https://issues.apache.org/jira/browse/CB-12083). If that happens, remove first `cordova-libgoogleadmobads` manually:
+
+
+```
+$ rm plugins/cordova-libgoogleadmobads/ -rf
+$ cordova plugin rm cordova-admob
+$ npm cache clear
+$ cordova plugin add cordova-admob
 ```
 
 ---
